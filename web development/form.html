@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>radio button</title>
+	<link rel="stylesheet" type="text/css"  href="style/form.css">
+</head>
+<body>
+	<h1 align="center">Student Admission Form</h1>
+	<form>
+		<table align="center" cellpadding="10">
+			<tr>
+				<td>First Name</td>
+				<td colspan="2"><input type"text" name="First_Name" maxlength="24"/></td>
+			</tr>
+			<br><br><br>
+			<tr>
+				<td>Last Name</td>
+				<td colspan="2"><input type="text" name="Last_Name" maxlength="24"></td>
+			</tr>
+			<tr>
+				<td>Email id</td>
+				<td colspan="2"><input type="text" name="Email id"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>
+					Male<input type="radio" name="Gender" value="Male">
+                    Female<input type="radio" name="Gender" value="Female">
+                </td>
+			</tr>
+			<tr>
+				<td>Adress</td>
+				<td colspan="2"><input type="text" name="Adress" maxlength="50"></td>
+			</tr>
+			<tr>
+				<td>City</td>
+				<td colspan="2"><input type="text" name="City"></td>
+			</tr>
+			<td>Pin Code</td>
+			<td colspan="2"><input type="text" name="pin_code" maxlength="8"/></td>
+			<tr>
+				<td>State</td>
+				<td colspan="2"><input type="text" name="state" maxlength="10"/>
+			</tr>
+            <tr>
+            	<td>Country</td>
+                <td colspan="2"><input type="text" name="Country"></td>
+            </tr>
+            <tr>
+            	<td>Hobbies</td>
+            	<td>
+            	Reading Books<input type="checkbox" name="reading_books" value="reading_books">
+            	Play Bedminton<input type="checkbox" name="play Bedminton" value="play bedminton">
+            	Journey<input type="checkbox" name="Journey" value="Journey">
+            	Swimming<input type="checkbox" name="Swimming" value="Swimming">
+            	</td>
+            </tr>
+            <tr>
+            	<td>Qualification</td>
+            	<td>
+            		<table>
+            			<tr>
+            				<td align="center"><b>Sr #</b></td>
+            				<td align="center"><b>Examination</b></td>
+            				<td align="center"><b>Board</b></td>
+            				<td align="center"><b>CGPA/%</b></td>
+            				<td align="center"><b>Year of Passing</b></td>
+            			</tr>
+            			<tr>
+							<td>1</td>
+							<td>Matriculation</td>
+							<td><input type="text" name="classX_Board" maxlength="30"/></td>
+							<td><input type="text" name="classX_percentage" maxlength="30"/></td>
+							<td><input type="text" name="classX_yearofpassing" maxlength="30"/></td>
+            			</tr>
+            			<tr>
+							<td>2</td>
+							<td>Intermediate</td>
+							<td><input type="text" name="classX_Board" maxlength="30"/></td>
+							<td><input type="text" name="classX_percentage" maxlength="30"/></td>
+							<td><input type="text" name="classX_yearofpassing" maxlength="30"/></td>
+            			</tr>
+            			<tr>
+							<td>3</td>
+							<td>B.S/Masters</td>
+							<td><input type="text" name="classX_Board" maxlength="30"/></td>
+							<td><input type="text" name="classX_percentage" maxlength="30"/></td>
+							<td><input type="text" name="classX_yearofpassing" maxlength="30"/></td>
+            			</tr>
+            			<tr>
+							<td>4</td>
+							<td>Other</td>
+							<td><input type="text" name="classX_Board" maxlength="30"/></td>
+							<td><input type="text" name="classX_percentage" maxlength="30"/></td>
+							<td><input type="text" name="classX_yearofpassing" maxlength="30"/></td>
+            			</tr>
+                     </table>
+                 </td>
+                 <tr>
+                 	<td>Course You Want To Join</td>
+                 	<td>
+            	M.S (Public Administration)<input type="radio" course="Public_Administration" value="Public_Administration">
+            	M.BA (H.R)<input type="radio" course="H.R" value="H.R">
+            	M.CS<input type="radio" course="M.CS" value="M.CS">
+            	M.IT<input type="radio" course="M.IT" value="M.IT">
+            	</td>
+                 </tr>
+                 <tr>
+					<td colspan="2" align="center">
+					<input type="submit" value="submit">
+					<input type="reset" value="reset">
+					</td>
+				</tr>
+				
+		</table>
+	</form>
+
+</body>
+</html>

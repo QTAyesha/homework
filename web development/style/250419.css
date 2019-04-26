@@ -1,0 +1,40 @@
+	html{
+		background-color: powderblue;
+	}
+	.glass{
+		border-collapse: collapse;
+		border:3px dashed red;
+		margin: 0 auto;
+		background-color: white;
+
+	}
+	.glass td,th{
+		border-style: dotted;
+		border-width: 3px;
+		border-color: #000000;
+		padding:20px;
+		text-align: center;
+		font-size: 20px;
+	}
+	caption{
+		font-size: 40px;
+		color:black;
+	}
+	.jug{
+		border-collapse: separate;
+		border:3px dotted red;
+		margin: 0 auto;
+		background-color: white;
+	}
+	.jug td,th{
+		border-style: solid;
+		border-width: 3px;
+		border-color: #000000;
+		padding:20px;
+		text-align: center;
+		font-size: 20px;
+		color:green;
+	caption{
+		font-size: 40px;
+		color: black;
+	}
