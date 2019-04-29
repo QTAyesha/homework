@@ -1,0 +1,44 @@
+  .box {
+		border:2px solid;
+		border-radius: 12px;
+		max-width:50%;
+		position: relative;
+		background-color: #a39784;
+       }
+
+   img {
+   	    width:150px;
+   	    height: 130px;
+   	    border:1px solid;
+   	    border-radius: 12px;
+
+}
+   h1,p{
+   	    color:#46429e;
+   	    text-align: center;
+   	    position: relative; bottom: 80px; left: 50px;
+   	    margin: 0 auto;
+
+    }
+    .name{
+    	  border: 2px solid;
+    	  border-radius: 12px;
+        position: absolute;
+        margin: 100px;
+        height:130px;
+        width:500px;
+        background-color: #295f6a;
+
+    }
+     h2{
+     	   text-align:center;
+         padding-top: 20px;
+         color:white;
+
+     }
+     .pic{
+     	    border:3px solid;
+     	    border-radius: 50px;
+          float: right;
+          position:relative;top: -150px;left:130px;
+     }
