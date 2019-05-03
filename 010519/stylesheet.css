@@ -1,0 +1,21 @@
+
+.moto {
+	 border:5px solid #fc0fc0;
+	width:100%;
+	height:550px;
+	 background:linear-gradient(#00a068,#d8b665);
+}
+.hello{
+	
+	color:white;
+	position: relative;top:170px;left: 550px;
+	font-family: cambria;
+}
+a     {
+
+	   color:white;
+	   background-color:#fc0fc0;
+	   text-align: center;
+	   text-decoration: none;
+	   margin:130px;
+}
