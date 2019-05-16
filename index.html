@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Types and Variables</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <style>
+    body { padding: 30px;
+           text-align: center;
+           background-color: lightblue;
+           font-weight: bold; 
+         }
+  </style>
+
+
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		//strings
+	    'Hi there! I am Ayesha ';
+	    'Java script has confused me';
+	    'But i am trying to get it';
+	     var linebreak="<br>";
+
+         console.log("Hi there! i am Ayesha");
+         document.write("Hi there! i am Ayesha");
+         document.write(linebreak);
+
+         console.log("Javascript has confused me");
+         document.write("javascript has confused me");
+         document.write(linebreak);
+
+         console.log("But! i am trying to get it");
+         document.write("But! i am trying to get it");
+         document.write(linebreak);
+         
+ 
+	    //numbers
+	    900;
+	    500;
+	    3.14;
+
+        var linebreak="<br>";
+	    console.log("900");
+	    var linebreak="<br>";
+	    console.log("48.95");
+	    var linebreak="<br>";
+	    console.log("500");
+        var linebreak="<br>";
+	    document.write("900,<br>48.95,<br>500");
+	    var linebreak="<br>";
+	    
+	    //booleans (truthy / falsy)
+	    true;
+	    false;
+	    
+	    //true
+	    const str = 'string';
+        console.log(Boolean(str));
+
+        //false
+        //const str = '';
+        //console.log(boolean(str));
+	 
+	    //boolean conditions
+	     console.log(Boolean(0));
+	     console.log(Boolean(false));
+	     console.log(Boolean(NaN));
+	     console.log(Boolean(-0));
+	     console.log(Boolean(1>2));
+
+	     //true
+	     console.log(Boolean(1<2));
+	     console.log(Boolean(1));
+	     console.log(Boolean(true));
+
+	     //undefined
+	       var a;
+	       console.log(a);
+
+	       let laptop;
+	       console.log(laptop);
+
+	     //null
+	       let std = null;
+	       console.log(std);
+
+	     //object
+	        const user = {
+	       	name:'Ayesha',
+	       	username:'Ayesha G',
+	       	email:'ayeshawaseem2894@gmail.com',
+	       	Dateofbirth:'19-01-1991'
+            };
+
+           console.log(user.name);
+           document.write(linebreak);
+           document.write('Ayesha');
+
+           console.log(user.username);
+           document.write(linebreak);
+           document.write('Ayesha G');
+
+           console.log(user.email);
+           document.write(linebreak);
+           document.write('ayeshawaseem2894@gmail.com');
+
+           console.log(user.Dateofbirth);
+           document.write(linebreak);
+           document.write('19-01-1991');
+           document.write(linebreak);
+
+           //Arrays
+           const students=['Ayesha','Arooj', 'Maham', 'Asim', 'Qasim'];
+
+           console.log(students[0]);
+           document.write(linebreak);
+           document.write('Ayesha');
+
+           console.log(students[1]);
+           document.write(linebreak);
+           document.write('Arooj');
+
+           console.log(students[2]);
+           document.write(linebreak);
+           document.write('Maham');
+
+           console.log(students[3]);
+           document.write(linebreak);
+           document.write('Asim');
+
+           console.log(students[4]);
+           document.write(linebreak);
+           document.write('Qasim');
+           document.write(linebreak);
+         
+           //integers in arrays
+           const subjects=['{title:"fine arts"}',
+                           '{title:"human resource management"}',
+                           '{title:"economics"}',
+                           '{title:"sociology"}',];
+
+            console.log(subjects[0]);
+            document.write(linebreak);
+            document.write('fine arts');
+
+            console.log(subjects[1]);
+            document.write(linebreak);
+            document.write('human resource management');
+
+            console.log(subjects[2]);
+            document.write(linebreak);
+            document.write('economics');
+
+            console.log(subjects[3]);
+            document.write(linebreak);
+            document.write('sociology');
+            document.write(linebreak);
+
+
+
+
+
+           </script>
+
+</body>
+</html>
