@@ -1,0 +1,10 @@
+body{
+	background-color: thistle;
+}
+.container-fluid, h1{
+	text-align:center;
+}
+.jumbotron{
+	background-color: tomato;
+	border:4px solid darkslateblue;
+}
