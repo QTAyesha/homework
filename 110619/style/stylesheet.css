@@ -1,0 +1,23 @@
+h2{
+	text-align: center;
+}
+body{
+	background-color:mistyrose;
+}
+.container-fluid{
+	background-color: lightsteelblue;
+	margin:0 auto;
+	width:85%;
+}
+.list-group{
+	border:none;
+	width:100%;
+
+}
+.well{
+	background-color: mistyrose;
+	margin:10px;
+	width: 100%;
+	position:relative;right:10px;
+	border-radius: 10px;
+}
