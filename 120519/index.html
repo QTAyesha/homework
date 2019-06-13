@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accordian</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <style type="text/css">
+        	body{
+        		background-color: lightblue;
+        	}
+        	.container{
+        		background-color: lightyellow;
+        	}
+        	.well{
+        		text-align: center;
+        		background-color: lightblue;
+        	}
+        	
+        </style>
+</head>
+<body>
+	<div class="container">
+		<div class="well"><h2>Accordian Example</h2></div>
+    <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">An Introduction to Html</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">HTML stands for Hyper Text Markup Language.
+								HTML describes the structure of Web pages using markup.
+								HTML elements are the building blocks of HTML pages.
+								HTML elements are represented by tags.
+								HTML tags label pieces of content such as "heading", "paragraph", "table", and so on.
+							</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Introduction to CSS</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">CSS stands for Cascading Style Sheets.
+								CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
+								CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+								External stylesheets are stored in CSS files.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Introduction to Java Script</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">JavaScript is a client-side scripting language developed by Brendan Eich.
+                                JavaScript can be run on any operating systems and almost all web browsers.
+                                You need a text editor to write JavaScript code and a browser to display your web page.</div>
+      </div>
+    </div>
+<div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Introduction to Bootstrap</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">Introduction to Bootstrap. Bootstrap is a free and open-source framework for creating websites and web applications. It's the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</div>
+
+  </div> 
+</div>
+
+</body>
+</html>
